@@ -1,0 +1,44 @@
+body {
+    background-color: #854f6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anadiv {
+    height: 300px;
+    width: 520px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.text {
+    margin-top: 80px;
+    margin-left: 110px;
+    width: 300px;
+    height: 20px;
+    background-color: #dfb6b2;
+}
+
+.submit {
+    height: 50px;
+    width: 150px;
+    background-color: #522b5b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#sonuc {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 180px;
+}

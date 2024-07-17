@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevgili [Kız Arkadaşınızın Adı]</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 0;
+    z-index: 1;
+}
+
+header p {
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+section {
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.gallery .photo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.photo-grid img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.05);
+}
+
+.message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff9999;
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <h1>Sevgili [Kız Arkadaşınızın Adı]</h1>
+        <p>Sana olan sevgimi ifade etmek için bu siteyi yaptım!</p>
+    </header>
+
+    <section class="gallery">
+        <h2>Birlikte Geçirdiğimiz Anılar</h2>
+        <div class="photo-grid">
+            <img src="photo1.jpg" alt="Anı 1">
+            <img src="photo2.jpg" alt="Anı 2">
+            <img src="photo3.jpg" alt="Anı 3">
+        </div>
+    </section>
+
+    <section class="message">
+        <h2>Senin İçin Bir Mesaj</h2>
+        <p>Sevgilim, seni çok seviyorum. Hayatımda olduğun için çok mutluyum ve her anımı seninle geçirmek istiyorum.</p>
+    </section>
+
+    <footer>
+        <p>Sevgilerle, [Sizin Adınız]</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

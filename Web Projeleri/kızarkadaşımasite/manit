@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kız Arkadaşıma Özel</title>
+    
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff9999;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    margin: 50px 20px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.photo-grid img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ff9999;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Sevgili [Kız Arkadaşınızın Adı]</h1>
+        <p>Sana olan sevgimi ifade etmek için bu siteyi yaptım!</p>
+    </header>
+
+    <section class="gallery">
+        <h2>Birlikte Geçirdiğimiz Anılar</h2>
+        <div class="photo-grid">
+            <img src="photo1.jpg" alt="Anı 1">
+            <img src="photo2.jpg" alt="Anı 2">
+            <img src="photo3.jpg" alt="Anı 3">
+        </div>
+    </section>
+
+    <section class="message">
+        <h2>Senin İçin Bir Mesaj</h2>
+        <p>Sevgilim, seni çok seviyorum. Hayatımda olduğun için çok mutluyum ve her anımı seninle geçirmek istiyorum.</p>
+    </section>
+
+    <footer>
+        <p>Sevgilerle, [Sizin Adınız]</p>
+    </footer>
+</body>
+</html>
